@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monomakh&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Schoolbell&display=swap');
+@import"./header";
+@import"../scss/photo";
+@import"./base";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monomakh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Schoolbell&display=swap');
+ 
+
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 12px 20px;
+   
+   
+}
+head{
+    width: 100%;
+    background-color: #043E51;
+}
+header{
+    width: 100%;
+    background-color: #043E51;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .pop{
+        font-size: 35px;
+        color: #FFFFFF;
+    }
+
+
+    .menyu{
+        display: none;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        color:#A1B5BB ;
+
+
+    }
+    button{
+        width: 110px;
+        height: 50px;
+        background-color:#145E76 ;
+        color: #A1B5BB;
+        border-radius: 15px;
+
+    }
+
+
+
+}
+
+@media(max-width:963px){
+.logo{
+    ul{
+        display:none;
+    }
+
+    .menyu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+
+
+}
+.home{
+    display: flex;
+
+
+
+    .left{
+        width: 58%;
+        margin: auto;
+        padding: 62px 20px;
+        gap: 30px;
+        
+      h1{
+        color: #FFFFFF;
+        font-size: 45px;
+        padding: 15px;
+      }
+      p{
+        color: #A1B5BB;
+        font-size: 20px;
+        padding: 15px;
+      }
+
+      .musa{
+        width: 150px;
+        height: 40px;
+        background-color: #145E76;
+        color: #E5E5E5;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Schoolbell", cursive;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+        .btn{
+            width: 110px;
+            height: 50px;
+            border-radius: 15px;
+            background-color: #FFA63A;
+        }
+        .bob{
+            width: 110px;
+            height: 50px;
+            border-radius: 15px;
+            background-color: #145E76;
+        }
+        
+    }
+    .reght{
+        width: 58%;
+        display: flex;
+        gap: 80px;
+        img{
+            width: 400px;
+            height: 400px;
+            bottom: 0;
+            object-fit: cover;
+        }
+    }
+
+}
+
+.asosiy{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+ 
+  
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #043E51;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.chap{
+     width: 700px;
+      border-radius: 20px solid dodgerblue;;
+    .odamcha{
+        width: 400px;
+        height: 300px;
+        
+    }
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+}
+.oxiri{
+    color:#696969;
+    
+}
+
+
+
+   
+   
+
+    
+
+
+
+
+
